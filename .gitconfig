@@ -1,0 +1,14 @@
+[user]
+	name = Katarina Rafcikova
+	email = rafcikova@gmail.com
+[push]
+	default = simple
+[alias]
+	co = checkout
+	cob = checkout -b
+	br = branch
+	cm = commit -m
+	l = log
+	master = !git checkout master && git pull origin
+	sur = submodule update --remote
+	rsh1 = reset --soft HEAD~1
